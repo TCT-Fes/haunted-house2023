@@ -21,7 +21,7 @@
 
 Webページ確認のためには下記コマンドを実行後に
 
-[http://127.0..0.1:8080](http://127.0..0.1:8080)にアクセスして下さい。
+[http://127.0.0.1:8080](http://127.0.0.1:8080)にアクセスして下さい。
 
 でも開発中は[VSCode](https://code.visualstudio.com/docs/languages/html)の[拡張機能](https://webdesign-trends.net/entry/14461)を使ったほが楽です。
 
