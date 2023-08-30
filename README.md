@@ -66,12 +66,11 @@ $ python -m http.server 8080  # Webサーバ起動
     ├── arduino               # Arduino/Raspi班用1
     ├── raspi                 # Arduino/Raspi班用1
     └── webpage               # Web班用
-        ├── pages             # HTML
-        │   └── index.html
+        ├── index.html        # HTML
         └── static            # 画像とかCSSとか
-            └── css
-                └── main.css
-
+            ├── css
+            │   └── main.css
+            └── img
 ```
 
 <br>
