@@ -53,6 +53,13 @@ $ python -m http.server 8080  # Webサーバ起動
 
 <br>
 
+#### 気をつけること
+
+- CSSは[フレームワーク](https://imitsu.jp/matome/hp-design/9228371374809274)に乗っかったほうがいいです
+- [レスポンシブデザイン](zhttps://www.google.com/search?q=%E3%83%AC%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B7%E3%83%96%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3&sca_esv=561214195&sxsrf=AB5stBjTyB9OncPtFzKX30ewwEcx2Ar3aA%3A1693369951818&source=hp&ei=X8buZID2L46voATyxrDYCQ&iflsig=AD69kcEAAAAAZO7UbysIjemDkHGuRkcwMHjWulB9uurJ&ved=0ahUKEwjAoczTxoOBAxWOF4gKHXIjDJsQ4dUDCAs&uact=5&oq=%E3%83%AC%E3%82%B9%E3%83%9D%E3%83%B3%E3%82%B7%E3%83%96%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3&gs_lp=Egdnd3Mtd2l6Ih7jg6zjgrnjg53jg7Pjgrfjg5bjg4fjgrbjgqTjg7MyBxAAGAQYgAQyBxAAGAQYgAQyBxAAGAQYgAQyBxAAGAQYgAQyBxAAGAQYgAQyBxAAGAQYgAQyBxAAGAQYgAQyBxAAGAQYgAQyBxAAGAQYgAQyBxAAGAQYgARIlx1QAFjCGnAAeACQAQCYAXmgAZYPqgEEMTYuNLgBA8gBAPgBAcICDRAAGAQYgAQYsQMYgwHCAgYQABgDGATCAgoQABgEGIAEGLED&sclient=gws-wiz)に気をつけましょう
+
+<br>
+
 ## Note ディレクトリ構成
 
 - Web班にはサンプルファイルを用意しておきました
