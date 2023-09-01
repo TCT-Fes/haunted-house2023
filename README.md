@@ -51,6 +51,12 @@ $ python -m http.server 8080  # Webサーバ起動
 
 - [https://typescriptbook.jp/](https://www.tohoho-web.com/wwwbeg.htm)
 
+- [https://developer.mozilla.org/ja/docs/Web](https://developer.mozilla.org/ja/docs/Web)
+
+- [https://jsprimer.net/](https://jsprimer.net/)
+
+- [https://typescriptbook.jp/](https://typescriptbook.jp/)
+
 <br>
 
 #### 気をつけること
