@@ -70,17 +70,23 @@ $ python -m http.server 8080  # Webサーバ起動
 
 - Web班にはサンプルファイルを用意しておきました
 
+- トップページは `index.html` にしましょう
+- cssや画像は webpage/static の中に入れましょう
+
 <br>
 
 ```bash
 .
 ├── README.md
 └── src
-    ├── arduino               # Arduino/Raspi班用1
-    ├── raspi                 # Arduino/Raspi班用1
-    └── webpage               # Web班用
-        ├── index.html        # HTML
-        └── static            # 画像とかCSSとか
+    ├── arduino          # Arduino/Raspi班用1
+    │   └── test.ino
+    ├── raspi            # Arduino/Raspi班用2
+    │   └── test.py
+    └── webpage
+        ├── html            # HTML
+        │   └── index.html
+        └── static          # 画像とかCSSとか
             ├── css
             │   └── main.css
             └── img
