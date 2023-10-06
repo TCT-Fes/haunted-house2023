@@ -1,9 +1,235 @@
 body {
-    background-color: skyblue;
+    font-family: 'New Tegomin', serif;
+    background-color: black;
 }
 
+html:before,
+html:after,
+body:before,
+body:after {
+    content: "";
+    background: rgb(99, 23, 23);
+    position: fixed;
+    display: block;
+    z-index: 1;
+}
 
-h1 {
+/* 上 */
+html:before {
+    height: 10px;
+    width: 100vw;
+    left: 0;
+    top: 0;
+}
 
-    border-bottom: solid 3px black;
+/* 右 */
+html:after {
+    width: 10px;
+    height: 100vh;
+    right: 0;
+    top: 0;
+}
+
+/* 下 */
+body:before {
+    height: 10px;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+}
+
+/* 左 */
+body:after {
+    width: 10px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.title {
+    background-color: rgb(99, 23, 23, 0.5);
+    position: fixed;
+    box-shadow: 0 0 3px 0 black;
+    width: 100%;
+    height: 100px;
+    left: 0;
+    margin: 0;
+    top: 0;
+}
+
+.titles {
+    color: gainsboro;
+    text-decoration: none;
+    height: 100px;
+    font-size: 2em;
+    padding: 0.75em 1em;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.titles:visited {
+    color: black;
+}
+
+.titles:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.synopsis1 {
+    color: red;
+    padding-top: 100px;
+    font-size: 100px;
+}
+
+#story {
+    padding-bottom: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin: 3em 5em;
+    font-weight: bold;
+    /*文字色*/
+    border: solid 3px #695959;
+    /*線*/
+    border-radius: 10px;
+    /*角の丸み*/
+}
+
+.story1 {
+    color: white;
+    font-size: 10ex;
+}
+
+.story2 {
+    color: crimson;
+    font-size: 4ex;
+}
+
+.story3 {
+    color: white;
+    font-size: 5.5ex;
+}
+
+.story4 {
+    color: rgb(108, 51, 208);
+    font-size: 4ex;
+}
+
+.story5 {
+    color: rgb(79, 117, 123);
+    font-size: 5ex;
+}
+
+.Others {
+    text-align: center;
+}
+
+.others1 {
+    color: white;
+    font-size: 8ex;
+}
+
+.otherss {
+    color: rgb(125, 161, 255);
+    font-size: 3ex;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.X {
+    font-size: 5em;
+    color: rgb(1, 1, 210);
+    margin-right: 20px;
+}
+
+.facebook {
+    font-size: 5em;
+    color: rgb(51, 158, 251);
+    margin-right: 20px;
+}
+
+.line {
+    font-size: 5em;
+    color: rgb(174, 218, 104);
+    margin-right: 20px;
+}
+
+.access {
+    display: flex;
+    justify-content: center;
+}
+
+.access iframe {
+    width: 100%;
+    height: 60%;
+    margin-left: 10px;
+}
+
+.access img {
+    width: 100%;
+    height: 60%;
+    margin-left: 20px;
+}
+
+.access1 {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 8ex;
+}
+
+.access2 {
+    color: white;
+    font-size: 4ex;
+    margin-left: 20px;
+}
+
+#cover {
+    font-size: 8ex;
+    text-align: center;
+}
+
+#page_top {
+    width: 100px;
+    height: 60px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: rgb(99, 23, 23);
+}
+
+#page_top a {
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 60px;
+    text-decoration: none;
+}
+
+#page_top a::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f102';
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -25px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+
+#page_top a::after {
+    content: 'PAGE TOP';
+    font-size: 13px;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
 }
