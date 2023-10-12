@@ -124,6 +124,18 @@ nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.2);
 } */
 
+.img-wrapper {
+    width: 100%;
+    margin: auto;
+    display: block;
+    padding-top: 16em;
+    padding-bottom: 16em;
+    background-image: url(../img/ホーム４.PNG);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
 .synopsis1 {
     color: red;
     padding-top: 100px;
