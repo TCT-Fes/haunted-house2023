@@ -3,23 +3,14 @@ body {
     background-color: black;
 }
 
-html:before,
 html:after,
-body:before,
-body:after {
+html:before,
+body:before {
     content: "";
     background: rgb(99, 23, 23);
     position: fixed;
     display: block;
     z-index: 1;
-}
-
-/* 上 */
-html:before {
-    height: 10px;
-    width: 100vw;
-    left: 0;
-    top: 0;
 }
 
 /* 右 */
@@ -30,19 +21,19 @@ html:after {
     top: 0;
 }
 
+/* 左 */
+html:before {
+    width: 10px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
 /* 下 */
 body:before {
     height: 10px;
     width: 100vw;
     bottom: 0;
-    left: 0;
-}
-
-/* 左 */
-body:after {
-    width: 10px;
-    height: 100vh;
-    top: 0;
     left: 0;
 }
 
@@ -66,12 +57,12 @@ nav ul {
 }
 
 nav ul li {
-
     text-decoration: none;
     list-style: none;
     display: inline-block;
     width: 10%;
-    min-width: 90px;
+    height: 100%;
+    min-width: 130px;
     padding-right: 3%;
 }
 
@@ -86,63 +77,16 @@ nav ul li.current a {
 }
 
 nav ul li a:visited {
-    color: black;
-}
-
-nav ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-/* .title {
-    background-color: rgb(99, 23, 23, 0.5);
-    position: fixed;
-    box-shadow: 0 0 3px 0 black;
-    width: 100%;
-    height: 100px;
-    left: 0;
-    margin: 0;
-    top: 0;
-}
-
-.titles {
     color: gainsboro;
-    text-decoration: none;
-    height: 100px;
-    font-size: 2em;
-    padding: 0.75em 1em;
-    vertical-align: middle;
-    display: inline-block;
-    text-align: right;
-    margin-left: auto;
-}
-
-.titles:visited {
-    color: black;
-}
-
-.titles:hover {
-    background-color: rgba(0, 0, 0, 0.2);
-} */
-
-.img-wrapper {
-    width: 100%;
-    margin: auto;
-    display: block;
-    padding-top: 16em;
-    padding-bottom: 16em;
-    background-image: url(../img/ホーム４.PNG);
-    background-position: center center;
-    background-size: cover;
-    text-align: center;
 }
 
 .synopsis1 {
     color: red;
-    padding-top: 100px;
+    padding-top: 150px;
     font-size: 100px;
 }
 
-#Story {
+.Story {
     text-align: center;
     padding-bottom: 3em;
     padding-left: 3em;
@@ -160,16 +104,8 @@ nav ul li a:hover {
     color: rgb(255, 25, 0);
 }
 
-.b {
-    background: linear-gradient(transparent 70%, rgba(255, 95, 247, 0.656) 70%);
-}
-
-.c {
-    background: linear-gradient(transparent 70%, rgba(255, 95, 247, 0.656) 70%);
-}
-
 .d {
-    color: rgb(79, 117, 123);
+    color: rgb(156, 107, 47);
     font-size: 3ex;
     margin: 3px;
 }
@@ -191,8 +127,9 @@ nav ul li a:hover {
 }
 
 .story4 {
-    color: rgb(108, 51, 208);
+    color: rgb(137, 110, 236);
     font-size: 4ex;
+    padding-top: 50px;
 }
 
 .Others {
@@ -213,15 +150,45 @@ nav ul li a:hover {
     margin-left: 20%;
 }
 
+.poster {
+    width: 30%;
+    margin-top: 20px;
+}
+
+.poster2 {
+    color: rgb(125, 81, 245);
+    font-size: 2em;
+}
+
 .photo {
-    font-size: 28px;
-    color: rgb(145, 217, 217);
-    margin-right: 8%;
-    margin-left: 8%;
+    color: rgb(160, 127, 251);
+    font-size: 1.8em;
+}
+
+.photo1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.img-home {
+    width: 90%;
+    height: auto;
+}
+
+.photo2 {
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.img-rinku {
+    width: 30%;
+    height: auto;
 }
 
 .X {
-    font-size: 5em;
+    font-size: 6em;
     color: rgb(0, 0, 0);
     text-shadow:
         2px 2px 2px #fff, -2px -2px 2px #fff,
@@ -232,7 +199,7 @@ nav ul li a:hover {
 }
 
 .facebook {
-    font-size: 5em;
+    font-size: 6em;
     color: rgb(11, 61, 242);
     text-shadow:
         2px 2px 2px #fff, -2px -2px 2px #fff,
@@ -243,7 +210,7 @@ nav ul li a:hover {
 }
 
 .line {
-    font-size: 5em;
+    font-size: 6em;
     color: rgb(47, 154, 66);
     text-shadow:
         2px 2px 2px #fff, -2px -2px 2px #fff,
@@ -253,25 +220,22 @@ nav ul li a:hover {
     margin-right: 20px;
 }
 
+.kounaimap {
+    width: 40%;
+}
+
+.mapsetsumei {
+    color: white;
+    padding-top: 20px;
+}
+
 .access {
-    display: flex;
-    justify-content: center;
-}
-
-.access iframe {
     width: 100%;
-    height: 60%;
-    margin-left: 10px;
-}
-
-.access img {
-    width: 100%;
-    height: 60%;
-    margin-left: 20px;
+    text-align: center;
 }
 
 .access1 {
-    color: antiquewhite;
+    color: white;
     text-align: center;
     font-size: 8ex;
     margin-top: 50px;
@@ -279,14 +243,29 @@ nav ul li a:hover {
 }
 
 .access2 {
+    width: 600px;
+    height: 480px;
+    margin: 0 auto;
+}
+
+/*.access2 iframe {
+    width: 50%;
+    height: 60%;
+    margin: 0 auto;
+}*/
+
+.access3 {
+    text-align: center;
     color: white;
-    font-size: 4ex;
-    margin-left: 20px;
+    padding-top: 20px;
 }
 
 #cover {
     font-size: 8ex;
+    padding-top: 50px;
+    padding-bottom: 30px;
     text-align: center;
+    color: #4e4242;
 }
 
 #page_top {
