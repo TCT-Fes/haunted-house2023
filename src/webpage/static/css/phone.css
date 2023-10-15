@@ -1,9 +1,11 @@
-/* 上 */
-html:before {
-    height: 1%;
-    width: 100vw;
-    left: 0;
-    top: 0;
+html:after,
+body:before,
+body:after {
+    content: "";
+    background: rgb(99, 23, 23);
+    position: fixed;
+    display: block;
+    z-index: 1;
 }
 
 /* 右 */
@@ -37,7 +39,7 @@ nav {
     position: fixed;
     box-shadow: 0 0 3px 0 black;
     width: 100%;
-    height: 10%;
+    height: 8%;
     left: 0;
     margin: 0;
     top: 0;
@@ -49,34 +51,21 @@ nav ul {
     margin-top: 5%;
 }
 
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+    min-width: 80px;
+    padding-right: 3%;
+}
+
 nav ul li a {
     text-decoration: none;
     color: gainsboro;
     font-size: 1em;
 }
-
-/* .title {
-    background-color: rgba(99, 23, 23, 0.822);
-    position: fixed;
-    box-shadow: 0 0 3px 0 black;
-    width: 100%;
-    height: 10%;
-    left: 0;
-    margin: 0;
-    top: 0;
-
-}
-
-.titles {
-    color: gainsboro;
-    text-decoration: none;
-    height: 10%;
-    font-size: 1.2em;
-    padding: 0.75em 1em;
-    vertical-align: middle;
-    float: left;
-
-} */
 
 .synopsis1 {
     color: red;
@@ -84,14 +73,11 @@ nav ul li a {
     font-size: 3em;
 }
 
-#Story {
+.Story {
     text-align: center;
     padding-bottom: 1%;
     padding: 0%;
-    margin: 0%;
-    /* padding-left: 0.5%; */
-    /* padding-right: 0.5%; */
-    /* margin: 3em 5em; */
+    margin: 10%;
     font-weight: bold;
     /*文字色*/
     border: none;
@@ -100,4 +86,133 @@ nav ul li a {
     /*角の丸み*/
 }
 
-/* フォントサイズの修正が必要 */
+.story1 {
+    color: white;
+    font-size: 5ex;
+    margin: 30px;
+}
+
+.story2 {
+    color: white;
+    font-size: 0.9em;
+}
+
+.story3 {
+    color: white;
+    font-size: 2.9ex;
+}
+
+.story4 {
+    color: rgb(139, 97, 210);
+    font-size: 2.5ex;
+    padding-top: 10px;
+}
+
+.Others {
+    text-align: center;
+}
+
+.others1 {
+    color: white;
+    font-size: 5ex;
+}
+
+.otherss {
+    color: rgb(125, 161, 255);
+    font-size: 1.8ex;
+}
+
+.poster {
+    width: 30%;
+    margin-top: 5px;
+}
+
+.poster2 {
+    color: rgb(125, 81, 245);
+    font-size: 1em;
+}
+
+.photo {
+    color: rgb(160, 127, 251);
+    font-size: 0.8em;
+}
+
+.img-rinku {
+    width: 30%;
+    height: auto;
+}
+
+.X {
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    text-shadow:
+        2px 2px 2px #fff, -2px -2px 2px #fff,
+        -2px 2px 2px #fff, 2px -2px 2px #fff,
+        2px 0px 2px #fff, -2px -0px 2px #fff,
+        0px 2px 2px #fff, 0px -2px 2px #fff;
+    margin-right: 20px;
+}
+
+.facebook {
+    font-size: 3em;
+    color: rgb(11, 61, 242);
+    text-shadow:
+        2px 2px 2px #fff, -2px -2px 2px #fff,
+        -2px 2px 2px #fff, 2px -2px 2px #fff,
+        2px 0px 2px #fff, -2px -0px 2px #fff,
+        0px 2px 2px #fff, 0px -2px 2px #fff;
+    margin-right: 20px;
+}
+
+.line {
+    font-size: 3em;
+    color: rgb(47, 154, 66);
+    text-shadow:
+        2px 2px 2px #fff, -2px -2px 2px #fff,
+        -2px 2px 2px #fff, 2px -2px 2px #fff,
+        2px 0px 2px #fff, -2px -0px 2px #fff,
+        0px 2px 2px #fff, 0px -2px 2px #fff;
+    margin-right: 20px;
+}
+
+.kounaimap {
+    width: 60%;
+}
+
+.mapsetsumei {
+    color: white;
+    font-size: 1em;
+    padding-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.access1 {
+    color: white;
+    text-align: center;
+    font-size: 5ex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.access2 {
+    width: 240px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.access3 {
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    padding-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#cover {
+    font-size: 3ex;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #4e4242;
+}
