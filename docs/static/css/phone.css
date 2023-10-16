@@ -123,7 +123,7 @@ nav ul li a {
 }
 
 .poster {
-    width: 30%;
+    width: 50%;
     margin-top: 5px;
 }
 
@@ -137,8 +137,8 @@ nav ul li a {
     font-size: 0.8em;
 }
 
-.img-rinku {
-    width: 30%;
+.img-home {
+    width: 100%;
     height: auto;
 }
 
