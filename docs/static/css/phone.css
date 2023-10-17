@@ -88,23 +88,23 @@ nav ul li a {
 
 .story1 {
     color: white;
-    font-size: 5ex;
+    font-size: 3em;
     margin: 30px;
 }
 
 .story2 {
     color: white;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 .story3 {
     color: white;
-    font-size: 2.9ex;
+    font-size: 1.3em;
 }
 
 .story4 {
     color: rgb(139, 97, 210);
-    font-size: 2.5ex;
+    font-size: 1.3em;
     padding-top: 10px;
 }
 
@@ -114,12 +114,14 @@ nav ul li a {
 
 .others1 {
     color: white;
-    font-size: 5ex;
+    font-size: 2.5em;
 }
 
 .otherss {
     color: rgb(125, 161, 255);
-    font-size: 1.8ex;
+    font-size: 1em;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 
 .poster {
@@ -128,13 +130,15 @@ nav ul li a {
 }
 
 .poster2 {
-    color: rgb(125, 81, 245);
+    color: rgb(160, 127, 251);
     font-size: 1em;
 }
 
 .photo {
     color: rgb(160, 127, 251);
-    font-size: 0.8em;
+    font-size: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .img-home {
@@ -183,8 +187,8 @@ nav ul li a {
     color: white;
     font-size: 1em;
     padding-top: 15px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 .access1 {
@@ -206,8 +210,8 @@ nav ul li a {
     color: white;
     font-size: 1em;
     padding-top: 15px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #cover {
