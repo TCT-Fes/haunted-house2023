@@ -70,14 +70,14 @@ nav ul li a {
 .synopsis1 {
     color: red;
     padding-top: 100px;
-    font-size: 3em;
+    font-size: 3.2em;
 }
 
 .Story {
     text-align: center;
     padding-bottom: 1%;
     padding: 0%;
-    margin: 10%;
+    margin: 1%;
     font-weight: bold;
     /*文字色*/
     border: none;
@@ -88,24 +88,27 @@ nav ul li a {
 
 .story1 {
     color: white;
-    font-size: 3em;
-    margin: 30px;
+    font-size: 3.5em;
+    margin: 10%;
 }
 
 .story2 {
     color: white;
-    font-size: 1em;
+    font-size: 1.2em;
+    margin: 5%;
 }
 
 .story3 {
     color: white;
-    font-size: 1.3em;
+    font-size: 1.5em;
+    margin: 3%;
 }
 
 .story4 {
     color: rgb(139, 97, 210);
-    font-size: 1.3em;
+    font-size: 1.5em;
     padding-top: 10px;
+    margin: 3%;
 }
 
 .Others {
@@ -114,12 +117,12 @@ nav ul li a {
 
 .others1 {
     color: white;
-    font-size: 2.5em;
+    font-size: 2.8em;
 }
 
 .otherss {
     color: rgb(125, 161, 255);
-    font-size: 1em;
+    font-size: 1.2em;
     margin-right: 15%;
     margin-left: 15%;
 }
@@ -136,7 +139,7 @@ nav ul li a {
 
 .photo {
     color: rgb(160, 127, 251);
-    font-size: 1em;
+    font-size: 1.2em;
     margin-left: 10%;
     margin-right: 10%;
 }
