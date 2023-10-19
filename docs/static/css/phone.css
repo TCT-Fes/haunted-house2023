@@ -88,25 +88,25 @@ nav ul li a {
 
 .story1 {
     color: white;
-    font-size: 3.5em;
+    font-size: 5em;
     margin: 10%;
 }
 
 .story2 {
     color: white;
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin: 5%;
 }
 
 .story3 {
     color: white;
-    font-size: 1.5em;
+    font-size: 1.6em;
     margin: 3%;
 }
 
 .story4 {
     color: rgb(139, 97, 210);
-    font-size: 1.5em;
+    font-size: 1.6em;
     padding-top: 10px;
     margin: 3%;
 }
@@ -122,7 +122,7 @@ nav ul li a {
 
 .otherss {
     color: rgb(125, 161, 255);
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin-right: 15%;
     margin-left: 15%;
 }
@@ -139,7 +139,7 @@ nav ul li a {
 
 .photo {
     color: rgb(160, 127, 251);
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin-left: 10%;
     margin-right: 10%;
 }
