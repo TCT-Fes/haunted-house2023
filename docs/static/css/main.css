@@ -303,6 +303,16 @@ nav ul li a:visited {
     text-align: center;
 }
 
+.link_button {
+    text-decoration: none;
+    color: rgb(125, 161, 255);
+}
+
+.link_button:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
 /* スマホ用の例 (フレームワークのグリッドと科を使わない場合) */
 /* https://sole-color-blog.com/blog/71/ */
 
