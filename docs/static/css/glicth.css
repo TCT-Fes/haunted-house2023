@@ -50,12 +50,6 @@
     animation-delay: 1.8s;
 }
 
-.character:nth-child(1)::before,
-.character:nth-child(1)::after {
-    content: "いらっしゃい";
-}
-
-
 @keyframes rgb_noise {
     0% {
         color: rgba(255, 255, 255, 1);
